@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="585.0" prefWidth="427.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.anshfx.HelloController">
+   <children>
+      <Label alignment="CENTER" layoutX="88.0" layoutY="20.0" prefHeight="32.0" prefWidth="260.0" style="-fx-background-color: linear-gradient(to right, #f67c7c, #7070ff)linear-gradient(to right, #f67c7c, #7070ff); -fx-background-radius: 20 20 20 20;" text="Teacher" textFill="WHITE">
+         <font>
+            <Font name="Tw Cen MT Bold" size="31.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="34.0" layoutY="68.0" prefHeight="293.0" prefWidth="359.0" style="-fx-background-color: black; -fx-background-radius: 10 10 10 10; -fx-border-color: white; -fx-border-width: 2; -fx-border-radius: 10 10 10 10;">
+         <children>
+            <Pane fx:id="studentPane1" layoutX="14.0" layoutY="9.0" prefHeight="60.0" prefWidth="66.0" style="-fx-background-color: ffffff; -fx-background-radius: 22 22 22 22;" />
+            <Pane fx:id="studentPane2" layoutX="146.0" layoutY="9.0" prefHeight="60.0" prefWidth="66.0" style="-fx-background-color: ffffff; -fx-background-radius: 22 22 22 22;" />
+            <Pane fx:id="studentPane3" layoutX="278.0" layoutY="9.0" prefHeight="60.0" prefWidth="66.0" style="-fx-background-color: ffffff; -fx-background-radius: 22 22 22 22;" />
+            <Pane fx:id="studentPane4" layoutX="14.0" layoutY="103.0" prefHeight="60.0" prefWidth="66.0" style="-fx-background-color: ffffff; -fx-background-radius: 22 22 22 22;" />
+            <Pane fx:id="studentPane7" layoutX="14.0" layoutY="200.0" prefHeight="60.0" prefWidth="66.0" style="-fx-background-color: ffffff; -fx-background-radius: 22 22 22 22;" />
+            <Pane fx:id="studentPane5" layoutX="146.0" layoutY="103.0" prefHeight="60.0" prefWidth="66.0" style="-fx-background-color: ffffff; -fx-background-radius: 22 22 22 22;" />
+            <Pane fx:id="studentPane6" layoutX="278.0" layoutY="103.0" prefHeight="60.0" prefWidth="66.0" style="-fx-background-color: ffffff; -fx-background-radius: 22 22 22 22;" />
+            <Pane fx:id="studentPane8" layoutX="146.0" layoutY="200.0" prefHeight="60.0" prefWidth="66.0" style="-fx-background-color: ffffff; -fx-background-radius: 22 22 22 22;" />
+            <Pane fx:id="studentPane9" layoutX="278.0" layoutY="200.0" prefHeight="60.0" prefWidth="66.0" style="-fx-background-color: ffffff; -fx-background-radius: 22 22 22 22;" />
+            <Text fx:id="nameText1" layoutX="26.0" layoutY="93.0" opacity="0.84" stroke="WHITE" strokeMiterLimit="15.0">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="nameText2" layoutX="158.0" layoutY="93.0" opacity="0.84" stroke="WHITE" strokeMiterLimit="15.0">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="nameText3" layoutX="290.0" layoutY="92.0" opacity="0.84" stroke="WHITE" strokeMiterLimit="15.0">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="nameText4" layoutX="26.0" layoutY="187.0" opacity="0.84" stroke="WHITE" strokeMiterLimit="15.0">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="nameText5" layoutX="161.0" layoutY="187.0" opacity="0.84" stroke="WHITE" strokeMiterLimit="15.0">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="nameText6" layoutX="290.0" layoutY="187.0" opacity="0.84" stroke="WHITE" strokeMiterLimit="15.0">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="nameText7" layoutX="26.0" layoutY="285.0" opacity="0.84" stroke="WHITE" strokeMiterLimit="15.0">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="nameText8" layoutX="158.0" layoutY="285.0" opacity="0.84" stroke="WHITE" strokeMiterLimit="15.0">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="nameText9" layoutX="290.0" layoutY="285.0" opacity="0.84" stroke="WHITE" strokeMiterLimit="15.0">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Text>
+            <Line endX="-99.9999771118164" endY="-139.1999969482422" layoutX="211.0" layoutY="146.0" startX="-99.99996948242188" startY="147.60000610351562" stroke="WHITE" />
+            <Line endX="-99.9999771118164" endY="-139.1999969482422" layoutX="345.0" layoutY="146.0" startX="-99.99996948242188" startY="147.60000610351562" stroke="WHITE" />
+            <Line endX="269.0000305175781" layoutX="93.0" layoutY="76.0" startX="-92.9999771118164" stroke="WHITE" />
+            <Line endX="263.3999938964844" layoutX="99.0" layoutY="268.0" startX="-92.9999771118164" stroke="WHITE" />
+            <Line endX="263.3999938964844" layoutX="100.0" layoutY="190.0" startX="-92.9999771118164" stroke="WHITE" />
+            <Line endX="268.0000305175781" layoutX="94.0" layoutY="170.0" startX="-92.9999771118164" stroke="WHITE" />
+            <Line endX="268.0000305175781" layoutX="94.0" layoutY="96.0" startX="-92.9999771118164" stroke="WHITE" />
+         </children>
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </AnchorPane>
+      <Label fx:id="dispalyMessage" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="377.0" prefHeight="39.0" prefWidth="414.0" style="-fx-background-color: white; -fx-background-rads: 20 20 20 20; : black; : 2; : 20 20 20 20;">
+         <font>
+            <Font name="Berlin Sans FB" size="20.0" />
+         </font>
+      </Label>
+      <Text fill="WHITE" layoutX="93.0" layoutY="449.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Name" textAlignment="CENTER">
+         <font>
+            <Font name="Berlin Sans FB" size="19.0" />
+         </font>
+      </Text>
+      <TextField fx:id="nameEntered" layoutX="218.0" layoutY="431.0" prefHeight="26.0" prefWidth="125.0" promptText="Student name" style="-fx-border-color: skyblue;">
+         <effect>
+            <Bloom threshold="1.0" />
+         </effect></TextField>
+      <Text fill="WHITE" layoutX="164.0" layoutY="486.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Color " textAlignment="CENTER" wrappingWidth="42.818359375">
+         <font>
+            <Font name="Berlin Sans FB" size="19.0" />
+         </font>
+      </Text>
+      <ColorPicker fx:id="colorPicker" layoutX="218.0" layoutY="468.0" />
+      <Button layoutX="150.0" layoutY="525.0" mnemonicParsing="false" onAction="#addingStudent" prefHeight="32.0" prefWidth="118.0" style="-fx-background-color: linear-gradient(to right, #f67c7c, #7070ff); -fx-background-radius: 12 12 12 12;" text="Add Student" textFill="WHITE">
+         <font>
+            <Font name="Eras Bold ITC" size="15.0" />
+         </font>
+      </Button>
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>
